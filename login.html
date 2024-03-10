@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+        <link rel="stylesheet" href="./css folder/login.css">
+</head>
+<body>
+    <div class="container">
+    <div class="main-text">    
+        <h1> تسجيل دخول</h1>
+    </div>
+    <form action="/dashboard" method="post">
+        <div class="email" >
+            <label>البريد الإلكترونى</label>
+            <input type="email" required>
+        </div>
+        <div class="password">
+            <label> كلمة السر</label>
+            <input type="password" required>
+        </div>
+        <div class="login-btn">
+            <button class="back" id="loginBtn"><a href="./startElection.html">تسجيل الدخول</a></button>
+            <a href="./getPhoneNumber.html">هل  نسيت كلمة السر؟</a>
+        </div>
+    </form>
+    <div class="or">
+        <p >أو</p>
+    </div>
+    <div class="create-acc">
+        <button class="back" ><a href="./createAcc.html">انشاء حساب</a></button>
+        <div >
+            <button class="back"><a href="./index.html">رجوع</a></button>
+        </div>
+    </div>
+ 
+    </div>
+    <script src="./js folder/login.js"></script>
+
+</body>
+</html>
